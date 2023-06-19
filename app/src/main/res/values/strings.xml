@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RMA_CarPoolin</string>
+    <string name="addStart">Where does the ride start?</string>
+    <string name="addEnd">Where do you go?</string>
+    <string name="addSeatNo">How many people can apply?</string>
+    <string name="addDate">When?</string>
+    <string name="addPhoneNo">Enter your phone number.</string>
+    <string name="addRide">ADD RIDE</string>
+    <string name="email">Enter your email...</string>
+    <string name="password">Enter your password...</string>
+    <string name="registerTitle">Create new account</string>
+    <string name="register">REGISTER</string>
+
+</resources>

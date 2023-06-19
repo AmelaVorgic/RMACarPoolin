@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/allRidesFragment">
+    <fragment
+        android:id="@+id/addRideFragment"
+        android:name="com.example.rma_carpoolin.ui.fragments.AddRideFragment"
+        android:label="AddRideFragment"
+        tools:layout="@layout/addride_fragment">
+    <action
+            android:id="@+id/action_addRideFragment_to_allRidesFragment"
+            app:destination="@id/allRidesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allRidesFragment"
+        android:name="com.example.rma_carpoolin.ui.fragments.AllRidesFragment"
+        android:label="AllRidesFragment"
+        tools:layout="@layout/allrides_fragment">
+        <action
+            android:id="@+id/action_allRidesFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_allRidesFragment_to_addRideFragment"
+            app:destination="@id/addRideFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.rma_carpoolin.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/profile_fragment">
+        <action
+            android:id="@+id/action_profileFragment_to_allRidesFragment"
+            app:destination="@id/allRidesFragment" />
+    </fragment>
+
+</navigation>

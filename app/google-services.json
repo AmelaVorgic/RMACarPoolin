@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "890495098666",
+    "project_id": "carpoolin-886e0",
+    "storage_bucket": "carpoolin-886e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890495098666:android:bb8172fc78d15244334853",
+        "android_client_info": {
+          "package_name": "com.example.carpoolin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890495098666-5h0nvorp5d51prrff97t0tejmpog3l47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdcbw62M49Opgf4SmiOentOgYAee07bbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890495098666-5h0nvorp5d51prrff97t0tejmpog3l47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890495098666:android:868ac1c872d05db7334853",
+        "android_client_info": {
+          "package_name": "com.example.rma_carpoolin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890495098666-5h0nvorp5d51prrff97t0tejmpog3l47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdcbw62M49Opgf4SmiOentOgYAee07bbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890495098666-5h0nvorp5d51prrff97t0tejmpog3l47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
